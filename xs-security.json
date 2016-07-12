@@ -1,5 +1,5 @@
 {
-"xsappname": "tinyworld",
+"xsappname": "tinyWorld",
 "scopes": [ { "name": "$XSAPPNAME.view", "description": "View data" },
             { "name": "$XSAPPNAME.create", "description": "Create data"}
           ],
