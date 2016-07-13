@@ -112,7 +112,7 @@
 
     }
     
-    $(function() {
+  $(function() {
 
   // one time fetch of CSRF token
 
