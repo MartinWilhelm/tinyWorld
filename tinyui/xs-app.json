@@ -2,16 +2,14 @@
 	"welcomeFile": "index.html",
     "authenticationMethod": "route",
     "routes": [{
-           "source": "^/euro.xsodata/.*$",
-           "destination": "tinyjs_be",
-           "scope": "$XSAPPNAME.view"
-    }, {
-    	   "source": ".*\\.xsjs",
-    	   "destination": "tinyjs_be",
-    	   "scope": "$XSAPPNAME.create"
-    }, {
-    	   "source": "^/(.*)$",
-    	   "localDir" : "resources",
-    	   "scope" : "$XSAPPNAME.view"
-    }]
+       "source": "^/euro.xsodata/.*$",
+       "destination": "tinyjs_url",
+       "authenticationType": "xsuaa",
+       "scope": "$XSAPPNAME.view"
+}, {
+       "source": ".*\\.xsjs",
+       "destination": "tinyjs_url",
+       "scope": "$XSAPPNAME.create"
+}]
 }
+
